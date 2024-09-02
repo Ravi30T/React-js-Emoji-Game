@@ -1,0 +1,35 @@
+/* Write your code here. */
+
+.listItem {
+  list-style-type: none;
+}
+
+.eachCardContainer {
+  background-color: #ffffff30;
+  border: 2px solid #ffffff30;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.emoji {
+  height: 130px;
+}
+
+@media (max-width: 575px) {
+  .eachCardContainer {
+    padding: 15px;
+  }
+
+  .emoji {
+    height: 60px;
+  }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .emoji {
+    height: 80px;
+  }
+}

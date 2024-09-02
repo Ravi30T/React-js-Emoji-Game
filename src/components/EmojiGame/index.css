@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+.bgContainer {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-size: cover;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojisContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+@media (max-width: 575px) {
+  .bgContainer {
+    height: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .mainContainer {
+    height: 100vh;
+  }
+}

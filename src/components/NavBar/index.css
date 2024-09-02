@@ -1,0 +1,106 @@
+/* Write your code here. */
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff30;
+  border: 2px solid #ffffff30;
+  padding: 10px;
+}
+
+.gameOverNavContainer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ffffff30;
+  border: 2px solid #ffffff30;
+  padding: 10px;
+}
+
+.navLogocontainer {
+  display: flex;
+  align-items: center;
+}
+
+.navScoreContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 575px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navHeading {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .nav-score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .top-score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 14px;
+  }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .navHeading {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .nav-score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .top-score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navHeading {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  .nav-score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  .top-score {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 22px;
+  }
+}
